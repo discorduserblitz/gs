@@ -1,0 +1,270 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Window = Rayfield:CreateWindow({
+    Name = "Quick Gui",
+    LoadingTitle = "Loading into QuickGui!",
+    LoadingSubtitle = "by justagamerforfuture",
+    ConfigurationSaving = {
+       Enabled = true,
+       FolderName = nil, -- Create a custom folder for your hub/game
+       FileName = "Big Hub"
+    },
+    Discord = {
+       Enabled = false,
+       Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+    },
+    KeySystem = true, -- Set this to true to use our key system
+    KeySettings = {
+       Title = "Quick Gui",
+       Subtitle = "This gui made by External",
+       Note = "They key is #####",
+       FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+       SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+       Key = {"External"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+    }
+ })
+ local Tab = Window:CreateTab("Animations", 4483362458) -- Title, Image
+ local Button = Tab:CreateButton({
+    Name = "Zombie animation(working)",
+    Callback = function()
+        Rayfield:Notify({
+            Title = "External message",
+            Content = "You fucking monkey",
+            Duration = 6.5,
+            Image = 4483362458,
+            Actions = { -- Notification Buttons
+               Ignore = {
+                  Name = "Okay External daddy!",
+                  Callback = function()
+                  print("The user tapped Okay!")
+               end
+            },
+         },
+         })
+         local Animate = game.Players.LocalPlayer.Character.Animate
+            Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616168032"
+            Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
+            game.Players.LocalPlayer.Character.Humanoid.Jump = false
+            wait(1)
+        
+    end,
+ })
+ local Button = Tab:CreateButton({
+    Name = "Mage animation(Pending)",
+    Callback = function()
+        Rayfield:Notify({
+            Title = "External message",
+            Content = "You fucking monkey",
+            Duration = 6.5,
+            Image = 4483362458,
+            Actions = { -- Notification Buttons
+               Ignore = {
+                  Name = "Okay External daddy!",
+                  Callback = function()
+                  print("The user tapped Okay!")
+               end
+            },
+         },
+         })
+         local Animate = game.Players.LocalPlayer.Character.Animate
+            Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616168032"
+            Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
+            game.Players.LocalPlayer.Character.Humanoid.Jump = false
+            wait(1)
+    end,
+ }) --end
+
+
+ local Button = Tab:CreateButton({
+    Name = "Bubbly Animation(Working)",
+    Callback = function()
+        Rayfield:Notify({
+            Title = "External message",
+            Content = "You fucking monkey",
+            Duration = 6.5,
+            Image = 4483362458,
+            Actions = { -- Notification Buttons
+               Ignore = {
+                  Name = "Okay External daddy!",
+                  Callback = function()
+                  print("The user tapped Okay!")
+               end
+            },
+         },
+         })
+         local Animate = game.Players.LocalPlayer.Character.Animate
+            Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=10980888364"
+            Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=10921057244"
+            game.Players.LocalPlayer.Character.Humanoid.Jump = false
+            wait(1)
+    end,
+ })--end
+
+ local Button = Tab:CreateButton({
+    Name = "Ninja Animation(Working)",
+    Callback = function()
+        Rayfield:Notify({
+            Title = "External message",
+            Content = "WHY THE FUCK WOULD YOU USE THIS",
+            Duration = 6.5,
+            Image = 4483362458,
+            Actions = { -- Notification Buttons
+               Ignore = {
+                  Name = "Okay External daddy!",
+                  Callback = function()
+                  print("The user tapped Okay!")
+               end
+            },
+         },
+         })
+         local Animate = game.Players.LocalPlayer.Character.Animate
+            Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=10921162768"
+            Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=10921157929"
+            game.Players.LocalPlayer.Character.Humanoid.Jump = false
+            wait(1)
+    end,
+ })
+
+ local Button = Tab:CreateButton({
+    Name = "Stylish Animation(Working)",
+    Callback = function()
+        Rayfield:Notify({
+            Title = "External message",
+            Content = "damn...",
+            Duration = 6.5,
+            Image = 4483362458,
+            Actions = { -- Notification Buttons
+               Ignore = {
+                  Name = "Okay External daddy!",
+                  Callback = function()
+                  print("The user tapped Okay!")
+               end
+            },
+         },
+         })
+         local Animate = game.Players.LocalPlayer.Character.Animate
+            Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=10921283326"
+            Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=10921276116"
+            game.Players.LocalPlayer.Character.Humanoid.Jump = false
+            wait(1)
+    end,
+ })
+ local Tab2 = Window:CreateTab("Bypasser", 4483362458) -- Title, Image
+ local Button = Tab2:CreateButton({
+    Name = "Chat bypasser",
+    Callback = function()
+        Rayfield:Notify({
+            Title = "External message",
+            Content = "You get no bitches",
+            Duration = 6.5,
+            Image = 4483362458,
+            Actions = { -- Notification Buttons
+               Ignore = {
+                  Name = "Okay External daddy!",
+                  Callback = function()
+                  print("The user tapped Okay!")
+               end
+            },
+         },
+         })
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/1price/usercreation/main/UserCreation.lua", true))()
+    end,
+ })
+ local Tab3 = Window:CreateTab("Other scripts", 4483362458) -- Title, Image
+ local Button = Tab3:CreateButton({
+    Name = "Inf yield",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    end,
+ })
+ local Button = Tab3:CreateButton({
+    Name = "Emotes script(press"," on keyboard)",
+    Callback = function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Gi7331/scripts/main/Emote.lua"))()
+    end,
+ })
+ local ColorPicker = Tab3:CreateColorPicker({
+    Name = "Color Picker",
+    Color = Color3.fromRGB(255,255,255),
+    Flag = "ColorPicker1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+    Callback = function(Value)
+        -- The function that takes place every time the color picker is moved/changed
+        -- The variable (Value) is a Color3fromRGB value based on which color is selected
+    end
+})
+local Button = Tab:CreateButton({
+    Name = "Oldschool animation(Working)",
+    Callback = function()
+        Rayfield:Notify({
+            Title = "External message",
+            Content = "wow...",
+            Duration = 6.5,
+            Image = 4483362458,
+            Actions = { -- Notification Buttons
+               Ignore = {
+                  Name = "Okay External daddy!",
+                  Callback = function()
+                  print("The user tapped Okay!")
+               end
+            },
+         },
+         })
+         local Animate = game.Players.LocalPlayer.Character.Animate
+            Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=10921244891"
+            Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=10921240218"
+            game.Players.LocalPlayer.Character.Humanoid.Jump = false
+            wait(1)
+    end,
+ })
+
+ local Button = Tab:CreateButton({
+    Name = "Bold animation(Working NEW!)",
+    Callback = function()
+        Rayfield:Notify({
+            Title = "External message",
+            Content = "NICE BABY GIRL...",
+            Duration = 6.5,
+            Image = 4483362458,
+            Actions = { -- Notification Buttons
+               Ignore = {
+                  Name = "Okay External daddy!",
+                  Callback = function()
+                  print("The user tapped Okay!")
+               end
+            },
+         },
+         })
+         local Animate = game.Players.LocalPlayer.Character.Animate
+            Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=16738340646"
+            Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=16738337225"
+            game.Players.LocalPlayer.Character.Humanoid.Jump = false
+            wait(1)
+    end,
+ })
+ 
+ local Button = Tab:CreateButton({
+    Name = "Adidas Animation(Working NEW!)",
+    Callback = function()
+        Rayfield:Notify({
+            Title = "External message",
+            Content = "NICE BABY GIRL...",
+            Duration = 6.5,
+            Image = 4483362458,
+            Actions = { -- Notification Buttons
+               Ignore = {
+                  Name = "Okay External daddy!",
+                  Callback = function()
+                  print("The user tapped Okay!")
+               end
+            },
+         },
+         })
+         local Animate = game.Players.LocalPlayer.Character.Animate
+            Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=18537392113"
+            Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=18537384940"
+            game.Players.LocalPlayer.Character.Humanoid.Jump = false
+            wait(1)
+    end,
+ })
+ local Label = Tab:CreateLabel("Too lazy for few that are left")
